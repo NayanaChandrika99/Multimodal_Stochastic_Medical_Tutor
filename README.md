@@ -118,4 +118,4 @@ This structure supports debugging, replay, and offline improvement loops (SFT, R
 
 ## Architecture
 
-For a detailed explanation of the system design, training pipeline, and the decisions behind it, see the [
+For a detailed explanation of the system design, training pipeline, and the decisions behind it, see the 
