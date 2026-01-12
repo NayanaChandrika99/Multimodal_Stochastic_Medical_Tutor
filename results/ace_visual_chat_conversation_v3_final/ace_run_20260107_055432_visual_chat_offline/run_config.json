@@ -1,0 +1,9 @@
+{
+  "run_id": "ace_run_20260107_055432_visual_chat_offline",
+  "token_budget": 8000,
+  "curator_frequency": 1,
+  "max_rounds": 1,
+  "use_ground_truth": false,
+  "use_json_mode": false,
+  "use_llm_judge": true
+}

@@ -1,0 +1,22 @@
+{
+  "run_id": "ace_run_20260107_055432_visual_chat_offline",
+  "train_steps": 30,
+  "val_results": [
+    {
+      "epoch": 1,
+      "step": 10,
+      "accuracy": 0.7
+    },
+    {
+      "epoch": 1,
+      "step": 20,
+      "accuracy": 0.7
+    },
+    {
+      "epoch": 1,
+      "step": 30,
+      "accuracy": 0.6
+    }
+  ],
+  "test_accuracy": 0.36666666666666664
+}

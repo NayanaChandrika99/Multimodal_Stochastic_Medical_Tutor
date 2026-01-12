@@ -1,0 +1,93 @@
+{
+  "summary": {
+    "task_name": "vqa_rad",
+    "question_type": "chat",
+    "accuracy": 0.3333333333333333,
+    "stderr": 0.33333333333333337,
+    "n_examples": 3
+  },
+  "logs": [
+    {
+      "image_path": "images/vqa_rad_open_0.png",
+      "question": "how big is the mass in cm?",
+      "answer": "2.5cm x 1.7cm x 1.6cm",
+      "predicted": "The mass is approximately 3 cm in diameter.",
+      "is_correct": 0,
+      "tools_applied": [
+        "zoom"
+      ],
+      "tool_calls": [
+        {
+          "name": "zoom",
+          "kwargs": {
+            "bbox_2d": [
+              100,
+              50,
+              400,
+              350
+            ],
+            "padding": 0.0
+          }
+        }
+      ],
+      "latency_ms": 26211.09513286501,
+      "region": [
+        100,
+        50,
+        400,
+        350
+      ],
+      "grounding": {
+        "region": [
+          100,
+          50,
+          400,
+          350
+        ],
+        "cues": null,
+        "tools_applied": [
+          "zoom"
+        ]
+      },
+      "step_trace": [
+        {
+          "step": 1,
+          "action": "zoom(bbox_2d=[100, 50, 400, 350], padding=0.0)",
+          "observation": "Zoom into bbox_2d=[100, 50, 400, 350] with padding=0.0.; region [100, 50, 400, 350]"
+        }
+      ]
+    },
+    {
+      "image_path": "images/vqa_rad_open_1.png",
+      "question": "what does the least dense region represent",
+      "answer": "maxillary sinuses",
+      "predicted": "Insufficient evidence to answer confidently.",
+      "is_correct": 0,
+      "tools_applied": [],
+      "tool_calls": [],
+      "latency_ms": 18614.781480981037,
+      "grounding": {
+        "region": null,
+        "cues": null,
+        "tools_applied": []
+      },
+      "step_trace": []
+    },
+    {
+      "image_path": "images/vqa_rad_closed_0.png",
+      "question": "is the trachea midline?",
+      "answer": "yes",
+      "predicted": "Yes, the trachea appears midline in the image.",
+      "is_correct": 1,
+      "tools_applied": [],
+      "tool_calls": [],
+      "latency_ms": 2108.202380128205,
+      "grounding": {
+        "region": null,
+        "cues": null,
+        "tools_applied": []
+      },
+      "step_trace": []
+    }
+  ]
+}

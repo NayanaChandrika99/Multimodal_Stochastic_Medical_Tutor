@@ -1,0 +1,69 @@
+## COMMON MISTAKES
+
+[err-00001] helpful=13 harmful=0 :: Failing to use image enhancement or segmentation tools can lead to incorrect identification of anatomical structures.
+[err-00005] helpful=0 harmful=2 :: Relying solely on text retrieval without visual analysis can lead to incorrect conclusions; always incorporate imaging tools when available.
+[err-00006] helpful=0 harmful=0 :: Overusing a single tool, such as 'enhance', without utilizing complementary tools like 'segment' can lead to inadequate analysis and missed diagnoses.
+[err-00008] helpful=2 harmful=0 :: Neglecting to use both 'enhance' and 'segment' tools can result in misinterpretation of anatomical features, leading to incorrect conclusions about biological differences.
+[err-00011] helpful=0 harmful=0 :: Failing to utilize both 'enhance' and 'segment' tools can lead to a lack of visual evidence, resulting in incorrect conclusions about staining purposes.
+[err-00014] helpful=0 harmful=2 :: Using only the enhance tool without segmenting can lead to incomplete analysis and misinterpretation of anatomical structures.
+[err-00017] helpful=0 harmful=0 :: Neglecting to combine 'enhance' and 'segment' tools can lead to misidentification of imaging techniques, as visual analysis is crucial for accurate diagnosis.
+[err-00021] helpful=8 harmful=0 :: Failing to utilize image analysis tools like 'enhance' or 'segment' can lead to misidentification of visual data, such as waveforms.
+[err-00024] helpful=0 harmful=0 :: Neglecting to use both 'enhance' and 'segment' tools can lead to misinterpretation of complex visual data, such as time-frequency plots.
+[err-00026] helpful=0 harmful=0 :: Failing to utilize both 'enhance' and 'segment' tools together can lead to misidentification of complex visual data, such as time-frequency plots.
+[err-00028] helpful=0 harmful=0 :: Using only the 'enhance' tool without 'segment' can lead to misinterpretation of anatomical features, as segmentation is crucial for accurate analysis.
+[err-00031] helpful=0 harmful=0 :: Relying solely on the 'enhance' tool without using 'segment' can lead to incomplete analysis and misidentification of tumor types.
+[err-00034] helpful=0 harmful=0 :: Neglecting to use image analysis tools like 'enhance' or 'segment' can lead to incorrect conclusions about inflammation and other visual data.
+[err-00037] helpful=0 harmful=0 :: Neglecting to analyze visual data using 'enhance' or 'segment' tools can lead to misinterpretation of critical information, such as differential scores in medical imaging.
+[err-00040] helpful=0 harmful=0 :: Using only the 'enhance' tool without 'segment' can lead to misinterpretation of complex visual data, such as lesions in medical imaging.
+[err-00043] helpful=0 harmful=0 :: Failing to enhance an image before segmentation can lead to misinterpretation of anatomical structures, as segmentation alone may not provide sufficient clarity.
+[err-00046] helpful=0 harmful=0 :: Neglecting to enhance an image before segmentation can lead to misidentification of anatomical structures, as segmentation alone may not provide sufficient clarity.
+[err-00049] helpful=0 harmful=0 :: Failing to enhance an image before applying segmentation can lead to misinterpretation of anatomical structures, as segmentation alone may not provide sufficient clarity.
+[err-00052] helpful=0 harmful=0 :: Relying solely on a non-functional tool, such as the report generator, can lead to incorrect conclusions; always verify tool functionality before use.
+[err-00056] helpful=0 harmful=0 :: Relying solely on the report generator without verifying its configuration can lead to incorrect conclusions; always check tool functionality before use.
+[err-00059] helpful=0 harmful=0 :: Neglecting to combine 'enhance' and 'segment' tools can lead to misidentification of anatomical structures, as both tools are essential for accurate analysis.
+## PROBLEM SOLVING HEURISTICS
+
+[ctx-00002] helpful=0 harmful=0 :: Utilize 'enhance' or 'segment' tools to analyze images thoroughly before making a diagnosis.
+[ctx-00004] helpful=0 harmful=0 :: Always prioritize using 'enhance' or 'segment' tools for visual analysis when dealing with images to ensure accurate identification of structures.
+[ctx-00007] helpful=0 harmful=0 :: For accurate diagnosis in medical imaging, always combine 'enhance' with 'segment' to ensure thorough visual analysis.
+[ctx-00009] helpful=0 harmful=0 :: Always utilize 'enhance' or 'segment' tools for visual analysis before making comparative statements about anatomical structures.
+[ctx-00012] helpful=0 harmful=0 :: Incorporate both 'enhance' and 'segment' tools in your analysis to ensure a comprehensive understanding of the staining purpose.
+[ctx-00015] helpful=0 harmful=0 :: Always combine 'enhance' with 'segment' tools for a comprehensive analysis to ensure accurate identification of differences in anatomical structures.
+[ctx-00018] helpful=0 harmful=0 :: Always utilize both 'enhance' and 'segment' tools together to ensure thorough visual analysis and accurate identification of imaging techniques.
+[ctx-00022] helpful=0 harmful=0 :: Always employ 'enhance' or 'segment' tools when analyzing visual data to ensure accurate interpretation and avoid misidentification.
+[ctx-00025] helpful=0 harmful=0 :: Always utilize 'enhance' and 'segment' tools together when analyzing complex visual data to ensure accurate interpretation.
+[ctx-00027] helpful=0 harmful=0 :: Always employ 'enhance' and 'segment' tools in conjunction to ensure accurate interpretation of complex visual data.
+[ctx-00029] helpful=0 harmful=0 :: Always combine 'enhance' with 'segment' tools to ensure thorough analysis and accurate identification of anatomical structures.
+[ctx-00032] helpful=0 harmful=0 :: Always combine 'enhance' and 'segment' tools for a comprehensive analysis to ensure accurate identification of tumor types.
+[ctx-00035] helpful=0 harmful=0 :: Always utilize 'enhance' and 'segment' tools together to ensure accurate analysis of inflammation in medical images.
+[ctx-00038] helpful=0 harmful=0 :: Always utilize 'enhance' and 'segment' tools together to ensure accurate interpretation of visual data before drawing conclusions.
+[ctx-00041] helpful=0 harmful=0 :: Always combine 'enhance' with 'segment' tools for a comprehensive analysis to ensure accurate identification of anatomical structures.
+[ctx-00044] helpful=0 harmful=0 :: Always enhance the image before applying segmentation to ensure anatomical structures are clearly defined and accurately identified.
+[ctx-00047] helpful=0 harmful=0 :: Always utilize 'enhance' before 'segment' to ensure anatomical structures are clearly defined and accurately identified.
+[ctx-00050] helpful=0 harmful=0 :: Always enhance the image before applying segmentation to ensure anatomical structures are clearly defined and accurately identified.
+[ctx-00053] helpful=0 harmful=0 :: Utilize 'enhance' and 'segment' tools directly for image analysis to ensure accurate diagnosis, rather than depending on potentially failing tools.
+[ctx-00057] helpful=0 harmful=0 :: Utilize both 'enhance' and 'segment' tools for visual analysis to ensure accurate interpretation of medical images.
+[ctx-00060] helpful=0 harmful=0 :: Always utilize 'enhance' before 'segment' to ensure anatomical structures are clearly defined and accurately identified.
+## CONTEXT INDICATORS
+
+## OTHERS
+[oth-00003] helpful=0 harmful=0 :: Ensure that all tool commands are correctly formatted to avoid format violations.
+[oth-00010] helpful=0 harmful=0 :: Ensure that the commands for 'enhance' and 'segment' are used in conjunction to avoid format errors and maximize analysis effectiveness.
+[oth-00013] helpful=0 harmful=0 :: Always verify that the commands for 'enhance' and 'segment' are correctly formatted to prevent format errors and ensure effective analysis.
+[oth-00016] helpful=0 harmful=0 :: To avoid tool overuse, ensure that both 'enhance' and 'segment' are used judiciously to maximize analysis effectiveness without exceeding tool limits.
+[oth-00019] helpful=0 harmful=0 :: To prevent 'unknown_tool' errors, ensure that all tools used are clearly defined and available in the current context.
+[oth-00020] helpful=0 harmful=0 :: To avoid 'tool_overuse', establish a clear strategy for when to use 'enhance' and 'segment' tools to maximize effectiveness without exceeding tool limits.
+[oth-00023] helpful=0 harmful=0 :: To prevent 'unknown_tool' errors, ensure that all tools used for image analysis are clearly defined and available in the current context.
+[oth-00030] helpful=0 harmful=0 :: To prevent 'tool_overuse', establish a clear strategy for using 'enhance' and 'segment' tools together to maximize effectiveness without exceeding tool limits.
+[oth-00033] helpful=0 harmful=0 :: To prevent 'max_tools_exceeded' errors, establish a clear strategy for the number of tools to use in conjunction with 'enhance' and 'segment'.
+[oth-00036] helpful=0 harmful=0 :: To prevent format errors, ensure that the commands for 'enhance' and 'segment' are used correctly and in conjunction to maximize analysis effectiveness.
+[oth-00039] helpful=0 harmful=0 :: To prevent 'max_tools_exceeded' errors, establish a clear strategy for the number of tools to use in conjunction with 'enhance' and 'segment' to maximize effectiveness.
+[oth-00042] helpful=0 harmful=0 :: To prevent 'max_tools_exceeded' errors, establish a clear strategy for the number of tools to use in conjunction with 'enhance' and 'segment' to maximize effectiveness.
+[oth-00045] helpful=0 harmful=0 :: To prevent format errors, ensure that the commands for 'enhance' and 'segment' are used correctly and in conjunction to maximize analysis effectiveness.
+[oth-00048] helpful=0 harmful=0 :: To prevent misidentification of visual data, always employ both 'enhance' and 'segment' tools in conjunction for thorough analysis.
+[oth-00051] helpful=0 harmful=0 :: To prevent misidentification of visual data, always employ both 'enhance' and 'segment' tools in conjunction for thorough analysis.
+[oth-00054] helpful=0 harmful=0 :: To prevent 'unknown_tool' errors, always confirm that the tools being used are operational and correctly configured before analysis.
+[oth-00055] helpful=0 harmful=0 :: To avoid 'max_tools_exceeded' errors, establish a clear strategy for the number of tools to use in conjunction with 'enhance' and 'segment' to maximize effectiveness.
+[oth-00058] helpful=0 harmful=0 :: To prevent 'tool_overuse', establish a clear strategy for using 'enhance' and 'segment' tools together to maximize effectiveness without exceeding tool limits.
+[oth-00061] helpful=0 harmful=0 :: To prevent format errors, ensure that the commands for 'enhance' and 'segment' are used correctly and in conjunction to maximize analysis effectiveness.
+[oth-00062] helpful=0 harmful=0 :: To prevent 'max_tools_exceeded' errors, establish a clear strategy for the number of tools to use in conjunction with 'enhance' and 'segment' to maximize effectiveness.

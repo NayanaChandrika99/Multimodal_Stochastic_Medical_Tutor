@@ -1,0 +1,15 @@
+{
+  "run_id": "tutor_20260111_112221",
+  "orchestrator_model": "gpt-4o-mini",
+  "answer_model": "google/medgemma-4b-it",
+  "ace_model": "gpt-4o-mini",
+  "bm25_path": "data/retrieval/v3/bm25.pkl",
+  "text_index_path": "data/retrieval/v3/text_enhanced_new",
+  "image_index_path": "data/retrieval/v3/images_pmc_vqa1",
+  "output_dir": "Medical_Tutor/outputs",
+  "max_history_messages": 20,
+  "playbook_path": null,
+  "langsmith_enabled": false,
+  "langsmith_project": "medical-tutor",
+  "langsmith_endpoint": "https://api.smith.langchain.com"
+}

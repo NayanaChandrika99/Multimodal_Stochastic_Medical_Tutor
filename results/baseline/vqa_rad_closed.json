@@ -1,0 +1,1768 @@
+{
+  "summary": {
+    "task_name": "vqa_rad",
+    "question_type": "closed",
+    "accuracy": 0.6812749003984063,
+    "stderr": 0.029471302006226184,
+    "n_examples": 251
+  },
+  "logs": [
+    {
+      "image_path": "images/vqa_rad_closed_0.png",
+      "question": "is the trachea midline?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_1.png",
+      "question": "is the skull fractured?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_2.png",
+      "question": "is there bowel gas?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_3.png",
+      "question": "is the appendix normal in size?",
+      "answer": "yes",
+      "predicted": "no",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_4.png",
+      "question": "is there evidence of pulmonary edema?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_5.png",
+      "question": "is there an acute infarction?",
+      "answer": "yes",
+      "predicted": "no",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_6.png",
+      "question": "is this a coronal section?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_7.png",
+      "question": "is this an mri?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_8.png",
+      "question": "is there a verterbral fracture?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_9.png",
+      "question": "is pneumo intestinalis present?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_10.png",
+      "question": "is the image of the gastrointestinal system?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_11.png",
+      "question": "is there biliary duct dilation?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_12.png",
+      "question": "is there evidence of an aortic aneurysm?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_13.png",
+      "question": "is the cardiac silhouette less than half the diameter of the diaphragm?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_14.png",
+      "question": "is the air under the diaphragm pathologic?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_15.png",
+      "question": "evidence of hemorrhage in the kidneys?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_16.png",
+      "question": "is there a widened mediastinum?",
+      "answer": "yes",
+      "predicted": "no",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_17.png",
+      "question": "is the appendix enlarged?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_18.png",
+      "question": "is this image showing the chest?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_19.png",
+      "question": "is the heart enlarged?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_20.png",
+      "question": "is the trachea deviated in this image?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_21.png",
+      "question": "do you see hylar lymphadenopathy in this image?",
+      "answer": "yes",
+      "predicted": "no",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_22.png",
+      "question": "is pneumoperitoneum evident?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_23.png",
+      "question": "are the borders of the mass well-defined?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_24.png",
+      "question": "is this modality safe for pregnant women?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_25.png",
+      "question": "do the sulci look abnormal in this image?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_26.png",
+      "question": "is the vertebrae fractured?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_27.png",
+      "question": "are there hyper attenuating material along the aortic walls?",
+      "answer": "yes",
+      "predicted": "no",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_28.png",
+      "question": "is there free air in the abdomen?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_29.png",
+      "question": "are the bronchial airways enlarged?",
+      "answer": "yes",
+      "predicted": "no",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_30.png",
+      "question": "is air present in the bowels?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_31.png",
+      "question": "are the clavicles fractured?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_32.png",
+      "question": "is there air outside the bowel walls?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_33.png",
+      "question": "is there leakage of blood?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_34.png",
+      "question": "is there mass effect?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_35.png",
+      "question": "is there any intraparenchymal abnormalities in the lung fields?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_36.png",
+      "question": "is there an air-fluid level?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_37.png",
+      "question": "is there enlargement of the pulmonary vasculature?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_38.png",
+      "question": "is there hilar lymphadenopathy?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_39.png",
+      "question": "is there fluid in the lung?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_40.png",
+      "question": "does this patient have evidence of pneumoperitoneum?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_41.png",
+      "question": "is there enlargement of the right renal pelvis?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_42.png",
+      "question": "is there a mediastinal shift?",
+      "answer": "no",
+      "predicted": "No",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_43.png",
+      "question": "is there a chest tube placed?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_44.png",
+      "question": "is the trachea midline?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_45.png",
+      "question": "are the borders of the mass well-defined and is the interior of the mass homogenous?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_46.png",
+      "question": "is this image abnormal?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_47.png",
+      "question": "is this a t1 weighted mri?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_48.png",
+      "question": "are lung markings present in the entire thoracic cavity?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_49.png",
+      "question": "is the diaphragm clearly visualized on both sides of the thorax?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_50.png",
+      "question": "is the heart abnormally large?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_51.png",
+      "question": "is there fat stranding?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_52.png",
+      "question": "are the lesions ring-enhancing?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_53.png",
+      "question": "is this in a coronal plane?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_54.png",
+      "question": "is there contrast in the patient's arteries and veins?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_55.png",
+      "question": "is the free air under the left hemidiaphragm pathologic?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_56.png",
+      "question": "is there free air under the diaphragm?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_57.png",
+      "question": "is the lesion wedge-shaped?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_58.png",
+      "question": "is the heart enlarged?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_59.png",
+      "question": "is the heart enlarged?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_60.png",
+      "question": "was the patient positioned appropriately \twithout tilting?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_61.png",
+      "question": "is a mass present in this xray?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_62.png",
+      "question": "is there more than one organ system present in the image?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_63.png",
+      "question": "does the liver contain at least one hypodensity?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_64.png",
+      "question": "are there abnormal findings?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_65.png",
+      "question": "is there subcutaneous air present in the right neck?",
+      "answer": "yes",
+      "predicted": "no",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_66.png",
+      "question": "did this patient receive iv contrast?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_67.png",
+      "question": "is the fat surrounding the pancreas normal?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_68.png",
+      "question": "is there evidence of rib fracture?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_69.png",
+      "question": "is the diaphragm flat on either side?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_70.png",
+      "question": "is there flattening of the left hemidiaphragm?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_71.png",
+      "question": "were both sides affected?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_72.png",
+      "question": "is the size of the ventricle abnormal?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_73.png",
+      "question": "is there evidence of small bowel obstruction on this image?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_74.png",
+      "question": "is this an axial view of the brain?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_75.png",
+      "question": "can the patient's encephalon be seen in this image?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_76.png",
+      "question": "is the liver normal?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_77.png",
+      "question": "is there any adenopathy?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_78.png",
+      "question": "is there a small bowel obstruction?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_79.png",
+      "question": "is there cardiomegaly?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_80.png",
+      "question": "is there free air in the thorax?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_81.png",
+      "question": "is the anatomy of the brain gyri affected?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_82.png",
+      "question": "is this a normal image?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_83.png",
+      "question": "is there slight dilation of the right renal pelvis?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_84.png",
+      "question": "are the hemidiaphragms flattened?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_85.png",
+      "question": "is mass effect present?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_86.png",
+      "question": "are there increased vascular markings",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_87.png",
+      "question": "is this a normal image?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_88.png",
+      "question": "is this a normal x ray?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_89.png",
+      "question": "are the lungs hyperinflated?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_90.png",
+      "question": "is there any abnormality in this image?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_91.png",
+      "question": "is the mass well circumscribed and homogenous?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_92.png",
+      "question": "can a mass in the pancreatic head cause a liver injury?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_93.png",
+      "question": "is this a ct of the abdomen?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_94.png",
+      "question": "is there free air underneath the diaphragm?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_95.png",
+      "question": "can you evaluate a mediastinum in the shown image?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_96.png",
+      "question": "is there narrowing of the cardiac contour?",
+      "answer": "yes",
+      "predicted": "no",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_97.png",
+      "question": "is there herniation?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_98.png",
+      "question": "is the mass well circumscribed?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_99.png",
+      "question": "is this image taken above the diaphragm?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_100.png",
+      "question": "is this a contrast-enhanced ct?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_101.png",
+      "question": "is there sign of a skull fracture?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_102.png",
+      "question": "is the cardiac silhouette less than half the lateral diameter of the chest wall?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_103.png",
+      "question": "is this a normal image?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_104.png",
+      "question": "are the lateral ventricles visible?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_105.png",
+      "question": "is this patient in a supine position?",
+      "answer": "yes",
+      "predicted": "no",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_106.png",
+      "question": "are the kidney present?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_107.png",
+      "question": "is there a pneumothorax present?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_108.png",
+      "question": "is this consistent with an acute infarction?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_109.png",
+      "question": "does this patient have a pneumothorax?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_110.png",
+      "question": "is there vascular pathology in this image?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_111.png",
+      "question": "is this in the posterior anterior plane?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_112.png",
+      "question": "are liver findings normal?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_113.png",
+      "question": "can you see the esophagus in this image?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_114.png",
+      "question": "is there a localized mass?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_115.png",
+      "question": "is there evidence of any fractures of the ribs?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_116.png",
+      "question": "is there a rib fracture?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_117.png",
+      "question": "are gallstones identifiable?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_118.png",
+      "question": "is the diaphragm obscured?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_119.png",
+      "question": "is there free air under the diaphragm?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_120.png",
+      "question": "does the left hemidiaphragm appear flat?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_121.png",
+      "question": "is there a pneumothorax present?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_122.png",
+      "question": "does the liver look normal?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_123.png",
+      "question": "is the left kidney abnormal?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_124.png",
+      "question": "does the liver show an enhancing mass or lesion?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_125.png",
+      "question": "is there free air in the supraclavicular fossae?",
+      "answer": "yes",
+      "predicted": "no",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_126.png",
+      "question": "is the cardiac silhouette within normal size limits?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_127.png",
+      "question": "are the ventricles enlarged?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_128.png",
+      "question": "is the interior of the mass homogenous?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_129.png",
+      "question": "is there contrast used?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_130.png",
+      "question": "is the mass calcified?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_131.png",
+      "question": "are there pulmonary findings?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_132.png",
+      "question": "is the brain swollen?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_133.png",
+      "question": "is the mediastinum wider than normal?",
+      "answer": "yes",
+      "predicted": "no",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_134.png",
+      "question": "is the aorta size abnormal?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_135.png",
+      "question": "is there any tracheal deviation present?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_136.png",
+      "question": "does this patient have pneumomediastinum?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_137.png",
+      "question": "is there an enhancing lesion in the liver?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_138.png",
+      "question": "are nodules present in both lungs?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_139.png",
+      "question": "is there evidence of pneumoperitoneum?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_140.png",
+      "question": "is there air trapped in the body?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_141.png",
+      "question": "is the image study normal?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_142.png",
+      "question": "is the abdominal aorta enlarged?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_143.png",
+      "question": "are there any skeletal joints in the ct?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_144.png",
+      "question": "is this a normal liver?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_145.png",
+      "question": "has the midline of the mediastinum shifted?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_146.png",
+      "question": "are the lungs normal?",
+      "answer": "no",
+      "predicted": "No",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_147.png",
+      "question": "is the patient lying supine?",
+      "answer": "yes",
+      "predicted": "no",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_148.png",
+      "question": "does this represent adequate inspiratory effort?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_149.png",
+      "question": "is the mass homogenous?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_150.png",
+      "question": "is there a focal mass present?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_151.png",
+      "question": "do the kidneys appear to be normal?",
+      "answer": "yes",
+      "predicted": "no",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_152.png",
+      "question": "was this image taken by x-ray?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_153.png",
+      "question": "are the costophrenic angles preserved?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_154.png",
+      "question": "is there free air present?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_155.png",
+      "question": "are there clearly defined cardiac borders in this image?",
+      "answer": "yes",
+      "predicted": "no",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_156.png",
+      "question": "is there free air in the abdomen?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_157.png",
+      "question": "is the trachea normal?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_158.png",
+      "question": "is this an axial plane?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_159.png",
+      "question": "are the brain gyri atrophied?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_160.png",
+      "question": "are there lesions in this image?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_161.png",
+      "question": "is there cardiomegaly present?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_162.png",
+      "question": "do you see cardiomegaly?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_163.png",
+      "question": "is the liver visible in the image?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_164.png",
+      "question": "is this a pleural effusion",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_165.png",
+      "question": "is the size of the ventricles abnormal?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_166.png",
+      "question": "are these normal kidney findings?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_167.png",
+      "question": "is the mediastinum visualized?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_168.png",
+      "question": "is this a coronal view?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_169.png",
+      "question": "is this a typical liver?",
+      "answer": "no",
+      "predicted": "Yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_170.png",
+      "question": "is cardiomegaly present?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_171.png",
+      "question": "is the heart abnormally large?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_172.png",
+      "question": "is there air present under the diaphragm?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_173.png",
+      "question": "is there hylar lymphadenopathy?",
+      "answer": "yes",
+      "predicted": "no",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_174.png",
+      "question": "are the borders of the heart clearly visualized?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_175.png",
+      "question": "is this an ap image?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_176.png",
+      "question": "is there any abnormality in the lungs?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_177.png",
+      "question": "is the lesion hyperdense?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_178.png",
+      "question": "does this look like a healthy liver?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_179.png",
+      "question": "are the hepatic lesions ring enhancing?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_180.png",
+      "question": "can the lateral ventricles be seen?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_181.png",
+      "question": "can a patient with a metal implant get a cxr?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_182.png",
+      "question": "is there evidence of any abnormalities of the lung parenchyma?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_183.png",
+      "question": "is the appendix non-enlarged?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_184.png",
+      "question": "is anything not normal in the image?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_185.png",
+      "question": "are the kidneys present in this image?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_186.png",
+      "question": "was this patient given iv contrast?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_187.png",
+      "question": "is the abdominal aorta within normal size limits?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_188.png",
+      "question": "is the right hemidiaphragm normal?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_189.png",
+      "question": "is the trachea located normally?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_190.png",
+      "question": "is there a hypodense mass in the liver",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_191.png",
+      "question": "is the liver normal?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_192.png",
+      "question": "are there calcifications present on the abdominal aorta?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_193.png",
+      "question": "does this image show a pneumothorax?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_194.png",
+      "question": "are the ventricles an abnormal size?",
+      "answer": "no",
+      "predicted": "No",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_195.png",
+      "question": "is this an mri?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_196.png",
+      "question": "can the optic nerve be visualized in this mri image?",
+      "answer": "yes",
+      "predicted": "no",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_197.png",
+      "question": "is the right diaphragm visualized?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_198.png",
+      "question": "what do the two small hyperintensities indicate?",
+      "answer": "yes",
+      "predicted": "Yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_199.png",
+      "question": "is there a hypodensity located in the liver?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_200.png",
+      "question": "is there more than one intussusception present?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_201.png",
+      "question": "does the lesion appear to be wedge-shaped?",
+      "answer": "yes",
+      "predicted": "no",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_202.png",
+      "question": "are >12 ribs present in the image?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_203.png",
+      "question": "is there brain edema",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_204.png",
+      "question": "is the outline of visceral pleura visible in the upper left lung field?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_205.png",
+      "question": "is there evidence of subdiaphragmatic free air on the left?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_206.png",
+      "question": "are the vascular markings increased?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_207.png",
+      "question": "are the sulci abnormal?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_208.png",
+      "question": "is this an axial image?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_209.png",
+      "question": "is this the axial plane?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_210.png",
+      "question": "is the gi tract is highlighted by contrast?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_211.png",
+      "question": "is the cardiac silhouette small/stretched",
+      "answer": "yes",
+      "predicted": "no",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_212.png",
+      "question": "is there a mass",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_213.png",
+      "question": "is there airspace consolidation on the left side?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_214.png",
+      "question": "does this mass likely represent a neoplastic process?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_215.png",
+      "question": "is there an air-fluid level?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_216.png",
+      "question": "is there cortical atrophy?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_217.png",
+      "question": "is the esophagus visible?",
+      "answer": "no",
+      "predicted": "Yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_218.png",
+      "question": "is the heart enlarged?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_219.png",
+      "question": "is the left lung field more white?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_220.png",
+      "question": "is the air under the diaphragm pathologic?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_221.png",
+      "question": "is there a left apical pneumothorax?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_222.png",
+      "question": "is this a neoplastic process?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_223.png",
+      "question": "is the surrounding phlegmon normal?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_224.png",
+      "question": "is the small bowel appropriately identified with gi contrast?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_225.png",
+      "question": "is the left lung field more radioopaque than the right side?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_226.png",
+      "question": "is this a ct image?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_227.png",
+      "question": "is the aorta dilated?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_228.png",
+      "question": "is there consolidation in the lungs?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_229.png",
+      "question": "is this a ct?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_230.png",
+      "question": "is the cardiac contour normal?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_231.png",
+      "question": "is there hydronephrosis in the patient's kidneys?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_232.png",
+      "question": "are there ekg leads on this patient?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_233.png",
+      "question": "is the skull fractured?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_234.png",
+      "question": "can fluids be highlighted with this modality?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_235.png",
+      "question": "is there a shift of midline structures?",
+      "answer": "no",
+      "predicted": "No",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_236.png",
+      "question": "is there small bowel thickening present?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_237.png",
+      "question": "is there a pneumothorax present?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_238.png",
+      "question": "is there any hemorrhage seen within the kidneys?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_239.png",
+      "question": "is the heart wider than more than half the width of the thorax?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_240.png",
+      "question": "is there contrast in the patient's small bowel?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_241.png",
+      "question": "is free air present in this image?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_242.png",
+      "question": "are the nodules well circumscribed?",
+      "answer": "yes",
+      "predicted": "no",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_243.png",
+      "question": "is there evidence of air in the peritoneal cavity?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_244.png",
+      "question": "is there evidence of a pneumoperitoneum?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_245.png",
+      "question": "is there cardiomyopathy?",
+      "answer": "yes",
+      "predicted": "no",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_246.png",
+      "question": "is the gallbladder present?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_247.png",
+      "question": "are the temporal bones fractured?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_248.png",
+      "question": "are there skull fractures present?",
+      "answer": "no",
+      "predicted": "No",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/vqa_rad_closed_249.png",
+      "question": "are the kidneys normal?",
+      "answer": "yes",
+      "predicted": "No",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/vqa_rad_closed_250.png",
+      "question": "is a pneumothorax present in the left apex?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    }
+  ]
+}

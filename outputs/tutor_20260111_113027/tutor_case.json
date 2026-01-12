@@ -1,0 +1,10 @@
+{
+  "case_id": "MM-2000",
+  "label": "D",
+  "body_system": "Digestive",
+  "medical_task": "Diagnosis",
+  "question_type": "Reasoning",
+  "images": [
+    "MM-2000-a.jpeg"
+  ]
+}

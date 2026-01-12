@@ -1,0 +1,2496 @@
+{
+  "summary": {
+    "task_name": "slake",
+    "question_type": "closed",
+    "accuracy": 0.7633802816901408,
+    "stderr": 0.022588859512131618,
+    "n_examples": 355
+  },
+  "logs": [
+    {
+      "image_path": "images/slake_closed_0.png",
+      "question": "Is this a transverse section?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_1.png",
+      "question": "Is the brain abnormal?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_2.png",
+      "question": "Is this a transverse plane?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_3.png",
+      "question": "Does the picture contain spleen?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_4.png",
+      "question": "Is this image taken via X-Ray?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_5.png",
+      "question": "Are there abnormalities in this image?",
+      "answer": "yes",
+      "predicted": "Yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_6.png",
+      "question": "Is the brain healthy?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_7.png",
+      "question": "Is the lung healthy?",
+      "answer": "no",
+      "predicted": "No",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_8.png",
+      "question": "Does the picture contain brian?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_9.png",
+      "question": "Do the spleen look abnormal?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_10.png",
+      "question": "Does the temporal lobe appear in this image?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_11.png",
+      "question": "Does the picture contain colon?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_12.png",
+      "question": "Does the lung look abnormal?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_13.png",
+      "question": "Is the brain healthy?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_14.png",
+      "question": "Does the picture contain kidney?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_15.png",
+      "question": "Does the larynx appear in the image?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_16.png",
+      "question": "Does the picture contain stomach?",
+      "answer": "no",
+      "predicted": "Yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_17.png",
+      "question": "Does the lung look abnormal?",
+      "answer": "yes",
+      "predicted": "Yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_18.png",
+      "question": "Does the picture contain lung?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_19.png",
+      "question": "Do the organs in the image exist in the abdomen?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_20.png",
+      "question": "Does the picture contain heart?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_21.png",
+      "question": "Does this image look normal?",
+      "answer": "yes",
+      "predicted": "no",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_22.png",
+      "question": "Does this image look normal?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_23.png",
+      "question": "Are there any organs used for breathing in this image?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_24.png",
+      "question": "Does the picture contain kidney?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_25.png",
+      "question": "Is this sagittal plane?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_26.png",
+      "question": "Does the picture contain liver?",
+      "answer": "no",
+      "predicted": "No",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_27.png",
+      "question": "Is the lung healthy?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_28.png",
+      "question": "Does the picture contain brian?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_29.png",
+      "question": "Does the picture contain the organ that could be used for secreting enzymes?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_30.png",
+      "question": "Can pneumothorax be observed on the lower left lung in this picture?",
+      "answer": "yes",
+      "predicted": "Yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_31.png",
+      "question": "Does the rectum appear in this picture?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_32.png",
+      "question": "Is this a coronal section?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_33.png",
+      "question": "Can effusion be observed on the lower left lung in this picture?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_34.png",
+      "question": "Does the picture contain lung?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_35.png",
+      "question": "Does the picture contain liver?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_36.png",
+      "question": "Is the lung healthy?",
+      "answer": "no",
+      "predicted": "No",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_37.png",
+      "question": "Does the picture contain spleen?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_38.png",
+      "question": "Are there abnormalities in this image?",
+      "answer": "yes",
+      "predicted": "Yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_39.png",
+      "question": "Does the picture contain heart?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_40.png",
+      "question": "Is the lung healthy?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_41.png",
+      "question": "Is this a CT scan?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_42.png",
+      "question": "Is there evidence of a brain edema?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_43.png",
+      "question": "Does the picture contain liver?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_44.png",
+      "question": "Is/Are there abnormalities in the patient's right lung?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_45.png",
+      "question": "Does this image look normal?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_46.png",
+      "question": "Do the organs in the image exist in the head?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_47.png",
+      "question": "Does the picture contain the organ that could be used for detoxicating?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_48.png",
+      "question": "Does the picture contain liver?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_49.png",
+      "question": "Does the picture contain liver?",
+      "answer": "no",
+      "predicted": "No",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_50.png",
+      "question": "Does the brain look abnormal?",
+      "answer": "yes",
+      "predicted": "no",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_51.png",
+      "question": "Is this image taken via X-Ray?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_52.png",
+      "question": "Does this image look normal?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_53.png",
+      "question": "Is the brain healthy?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_54.png",
+      "question": "Is the lung healthy?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_55.png",
+      "question": "Can pneumonia be observed on the lower right lung in this picture?",
+      "answer": "yes",
+      "predicted": "Yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_56.png",
+      "question": "Is this a study of the chest?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_57.png",
+      "question": "Do any of the organs in the picture belong to the urinary system?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_58.png",
+      "question": "Does the picture contain spleen?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_59.png",
+      "question": "Is this a CT?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_60.png",
+      "question": "Does the picture contain spleen?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_61.png",
+      "question": "Is this image normal?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_62.png",
+      "question": "Is this image normal?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_63.png",
+      "question": "Does the patient have brain tumor?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_64.png",
+      "question": "Does this image look abnormal?",
+      "answer": "yes",
+      "predicted": "Yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_65.png",
+      "question": "Does the picture contain kidney?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_66.png",
+      "question": "Does the picture contain liver?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_67.png",
+      "question": "Is there small bowel in this image?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_68.png",
+      "question": "Do the organs in the image exist in the head?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_69.png",
+      "question": "Are there abnormalities in this image?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_70.png",
+      "question": "Is the lung healthy?",
+      "answer": "no",
+      "predicted": "No",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_71.png",
+      "question": "Does the picture contain the organ that could be used for secreting enzymes?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_72.png",
+      "question": "Does the picture contain spinal cord?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_73.png",
+      "question": "Are there organs in the picture that can promote blood flow?",
+      "answer": "no",
+      "predicted": "Yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_74.png",
+      "question": "Is the lung normal appearing?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_75.png",
+      "question": "Does the picture contain brain stem?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_76.png",
+      "question": "Is this an MRI image with T2 weighted?",
+      "answer": "no",
+      "predicted": "No",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_77.png",
+      "question": "Does the picture contain liver?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_78.png",
+      "question": "Is this a study of the head?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_79.png",
+      "question": "Does the picture contain kidney?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_80.png",
+      "question": "Does the ears exist in this picture?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_81.png",
+      "question": "Is this a coronal section?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_82.png",
+      "question": "Does the picture contain liver?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_83.png",
+      "question": "Does the liver look normal ?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_84.png",
+      "question": "Does the lung look healthy?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_85.png",
+      "question": "Does the picture contain brian?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_86.png",
+      "question": "Is this sagittal plane?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_87.png",
+      "question": "Is this a study of the abdomen?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_88.png",
+      "question": "Does the picture contain lung?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_89.png",
+      "question": "Is this image taken via X-Ray?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_90.png",
+      "question": "Are/Is there kidneys in the picture?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_91.png",
+      "question": "Do any of the organs in the picture belong to the respiratory system?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_92.png",
+      "question": "Is this a transverse plane?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_93.png",
+      "question": "Can nodule be observed on the lower right lung in this picture?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_94.png",
+      "question": "Is this a study of the pelvic cavity?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_95.png",
+      "question": "Does the picture contain liver?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_96.png",
+      "question": "Does the picture contain spleen?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_97.png",
+      "question": "Are there abnormalities in this image?",
+      "answer": "yes",
+      "predicted": "no",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_98.png",
+      "question": "Is this a study of the neck?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_99.png",
+      "question": "Does the picture contain the organ which has the effect of excreting feces?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_100.png",
+      "question": "Does the picture contain the organ which has the effect of adjusting water and osmotic pressure balance?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_101.png",
+      "question": "Is the lung healthy?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_102.png",
+      "question": "Can pulmonary infiltration be observed on the upper right lung in this picture?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_103.png",
+      "question": "Does the picture contain lung?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_104.png",
+      "question": "Does the picture contain the organ that could promote blood flow?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_105.png",
+      "question": "Is the lung normal appearing?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_106.png",
+      "question": "Can nodule be observed on the lower left lung in this picture?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_107.png",
+      "question": "Does this image look normal?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_108.png",
+      "question": "Does the brain look abnormal?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_109.png",
+      "question": "Does the picture contain spleen?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_110.png",
+      "question": "Does the picture contain kidney?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_111.png",
+      "question": "Does the picture contain the organ which has the effect of digesting food?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_112.png",
+      "question": "Does the picture contain lung?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_113.png",
+      "question": "Does the kidney look abnormal?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_114.png",
+      "question": "Is the lung healthy?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_115.png",
+      "question": "Are there abnormalities in this image?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_116.png",
+      "question": "Does the picture contain heart?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_117.png",
+      "question": "Does the picture contain kidney?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_118.png",
+      "question": "Does this image look normal?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_119.png",
+      "question": "Does the picture contain the organ which has the effect of discharging waste?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_120.png",
+      "question": "Does the picture contain liver?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_121.png",
+      "question": "Do any of the organs in the picture belong to the circulatory system?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_122.png",
+      "question": "Is this image taken via MRI?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_123.png",
+      "question": "Can atelectasis be observed on the upper right lung in this picture?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_124.png",
+      "question": "Does the picture contain brian?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_125.png",
+      "question": "Does the picture contain kidney?",
+      "answer": "no",
+      "predicted": "No",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_126.png",
+      "question": "Does the picture contain kidney?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_127.png",
+      "question": "Does the picture contain heart?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_128.png",
+      "question": "Does this image look normal?",
+      "answer": "no",
+      "predicted": "No",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_129.png",
+      "question": "Do the organs in the image exist in the chest?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_130.png",
+      "question": "Is this a study of the head?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_131.png",
+      "question": "Does the rectum appear in this picture?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_132.png",
+      "question": "Do any of the organs in the picture belong to the respiratory system?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_133.png",
+      "question": "Does the picture contain lung?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_134.png",
+      "question": "Is this a transverse plane?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_135.png",
+      "question": "Does this image look normal?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_136.png",
+      "question": "Is this a transverse section?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_137.png",
+      "question": "Are there organs in the picture that can deliver food?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_138.png",
+      "question": "Does the picture contain heart?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_139.png",
+      "question": "Does the lung look abnormal?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_140.png",
+      "question": "Does the lung exist in this picture?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_141.png",
+      "question": "Is this image taken via CT?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_142.png",
+      "question": "Does the esophagus exist in this picture?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_143.png",
+      "question": "Is this a study of the neck?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_144.png",
+      "question": "Does the picture contain lung?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_145.png",
+      "question": "Does the picture contain spleen?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_146.png",
+      "question": "Are there abnormalities in this image?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_147.png",
+      "question": "Does the picture contain kidney?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_148.png",
+      "question": "Does the parotid appear in the image?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_149.png",
+      "question": "Is this a coronal section?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_150.png",
+      "question": "Does the patient have any abnormalities?",
+      "answer": "yes",
+      "predicted": "no",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_151.png",
+      "question": "Does the picture contain heart?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_152.png",
+      "question": "Is/Are there abnormalities in the patient's left lung?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_153.png",
+      "question": "Does the picture contain bladder?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_154.png",
+      "question": "Are there organs in the picture that can digest food?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_155.png",
+      "question": "Does the picture contain the organ which has the effect of discharging waste?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_156.png",
+      "question": "Does the picture contain lung?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_157.png",
+      "question": "Does the picture contain heart?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_158.png",
+      "question": "Are there abnormalities in this image?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_159.png",
+      "question": "Does the picture contain the organ which has the effect of gas delivery?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_160.png",
+      "question": "Can pneumothorax be observed on the lower right lung in this picture?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_161.png",
+      "question": "Is/Are there abnormalities in the patient's right lung?",
+      "answer": "yes",
+      "predicted": "Yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_162.png",
+      "question": "Is this sagittal plane?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_163.png",
+      "question": "Is this a CT?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_164.png",
+      "question": "Is this a coronal section?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_165.png",
+      "question": "Do the organs in the image exist in the chest?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_166.png",
+      "question": "Is the lung healthy?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_167.png",
+      "question": "Does the picture contain heart?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_168.png",
+      "question": "Does the picture contain bladder?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_169.png",
+      "question": "Does the picture contain spleen?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_170.png",
+      "question": "Does the picture contain heart?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_171.png",
+      "question": "Is this a coronal plane?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_172.png",
+      "question": "Does the parotid appear in the image?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_173.png",
+      "question": "Does the picture contain lung?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_174.png",
+      "question": "Is this sagittal plane?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_175.png",
+      "question": "Does the picture contain kidney?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_176.png",
+      "question": "Does the picture contain spleen?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_177.png",
+      "question": "Does the picture contain colon?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_178.png",
+      "question": "Does the picture contain heart?",
+      "answer": "no",
+      "predicted": "No",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_179.png",
+      "question": "Is the lung abnormal?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_180.png",
+      "question": "Is the liver healthy?",
+      "answer": "yes",
+      "predicted": "no",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_181.png",
+      "question": "Do the organs in the image exist in the head?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_182.png",
+      "question": "Does the picture contain rectum?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_183.png",
+      "question": "Is there an esophagus in this image?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_184.png",
+      "question": "Can mass be observed on the lower left lung in this picture?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_185.png",
+      "question": "Is there colon in the image?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_186.png",
+      "question": "Does the picture contain bladder?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_187.png",
+      "question": "Does the picture contain the organ which has the effect of gas delivery?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_188.png",
+      "question": "Does the picture contain heart?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_189.png",
+      "question": "Do any of the organs in the picture belong to the nervous system?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_190.png",
+      "question": "Does the picture contain heart?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_191.png",
+      "question": "Is this a CT scan?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_192.png",
+      "question": "Does the picture contain liver?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_193.png",
+      "question": "Is this a X-Ray?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_194.png",
+      "question": "Does the picture contain liver?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_195.png",
+      "question": "Does the picture contain spinal cord?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_196.png",
+      "question": "Does the picture contain heart?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_197.png",
+      "question": "Does the picture contain the organ which has the effect of excreting feces?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_198.png",
+      "question": "Is this image taken via X-Ray?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_199.png",
+      "question": "Is the tumor enhancing?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_200.png",
+      "question": "Does the picture contain the organ which has the effect of storing urine?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_201.png",
+      "question": "Are there abnormalities in this image?",
+      "answer": "yes",
+      "predicted": "Yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_202.png",
+      "question": "Does the patient have any abnormalities?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_203.png",
+      "question": "Does the picture contain liver?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_204.png",
+      "question": "Does the picture contain lung?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_205.png",
+      "question": "Does the picture contain spleen?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_206.png",
+      "question": "Does the stomach appear in the image?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_207.png",
+      "question": "Is this a transverse section?",
+      "answer": "yes",
+      "predicted": "Yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_208.png",
+      "question": "Is this an MRI image with T2 weighted?",
+      "answer": "yes",
+      "predicted": "Yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_209.png",
+      "question": "Is this a X-Ray?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_210.png",
+      "question": "Does the rectum exist in this picture?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_211.png",
+      "question": "Does the trachea exist in this picture?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_212.png",
+      "question": "Is this an MRI scan?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_213.png",
+      "question": "Is this image normal?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_214.png",
+      "question": "Is this a study of the pelvic cavity?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_215.png",
+      "question": "Does the picture contain kidney?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_216.png",
+      "question": "Does the stomach appear in the image?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_217.png",
+      "question": "Is this a transverse section?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_218.png",
+      "question": "Does the picture contain liver?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_219.png",
+      "question": "Is the lung healthy?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_220.png",
+      "question": "Are there some organs controlling heartbeat and breathing in this image?",
+      "answer": "yes",
+      "predicted": "no",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_221.png",
+      "question": "Do any of the organs in the picture belong to the digestive system?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_222.png",
+      "question": "Do the organs in the image exist in the head?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_223.png",
+      "question": "Does the picture contain lung?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_224.png",
+      "question": "Does the picture contain mandible?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_225.png",
+      "question": "Is there femoral head in this picture?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_226.png",
+      "question": "Does the picture contain spleen?",
+      "answer": "no",
+      "predicted": "No",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_227.png",
+      "question": "Does the picture contain the organ which has the effect of discharging waste?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_228.png",
+      "question": "Is this a coronal plane?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_229.png",
+      "question": "Is this a study of the abdomen?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_230.png",
+      "question": "Is this a coronal section?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_231.png",
+      "question": "Is/Are there abnormalities in the patient's left brain lobe?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_232.png",
+      "question": "Are there organs in the picture that can adjust water and osmotic pressure balance?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_233.png",
+      "question": "Does the picture contain colon?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_234.png",
+      "question": "Does the picture contain lung?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_235.png",
+      "question": "Can atelectasis be observed on the lower left lung in this picture?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_236.png",
+      "question": "Is this a study of the abdomen?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_237.png",
+      "question": "Is this a study of the chest?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_238.png",
+      "question": "Is this a study of the abdomen?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_239.png",
+      "question": "Are there organs in the picture that can deliver food?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_240.png",
+      "question": "Does the patient have any abnormalities?",
+      "answer": "yes",
+      "predicted": "Yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_241.png",
+      "question": "Do the organs in the image exist in the abdomen?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_242.png",
+      "question": "Is this an MRI image with T1 weighted?",
+      "answer": "no",
+      "predicted": "Yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_243.png",
+      "question": "Is this a study of the head?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_244.png",
+      "question": "Does the humerus head exist in this picture?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_245.png",
+      "question": "Does the picture contain the organ which has the effect of sensing light?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_246.png",
+      "question": "Does the picture contain liver?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_247.png",
+      "question": "Can pneumonia be observed on the right lung in this picture?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_248.png",
+      "question": "Is this a study of the head?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_249.png",
+      "question": "Does the picture contain the organ which has the effect of digesting food?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_250.png",
+      "question": "Is this sagittal plane?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_251.png",
+      "question": "Does the picture contain spleen?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_252.png",
+      "question": "Does the picture contain bladder?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_253.png",
+      "question": "Is this a study of the chest?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_254.png",
+      "question": "Does the picture contain the organ which has the effect of gas delivery?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_255.png",
+      "question": "Is this image taken via X-Ray?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_256.png",
+      "question": "Is this a study of the neck?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_257.png",
+      "question": "Do the organs in the image exist in the neck?",
+      "answer": "no",
+      "predicted": "No",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_258.png",
+      "question": "Does the picture contain kidney?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_259.png",
+      "question": "Is the lung healthy?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_260.png",
+      "question": "Is/Are there abnormalities in the patient's left lung?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_261.png",
+      "question": "Is this a coronal section?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_262.png",
+      "question": "Is this a study of the chest?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_263.png",
+      "question": "Does the picture contain the organ that could receive sound?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_264.png",
+      "question": "Does the picture contain kidney?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_265.png",
+      "question": "Does the lung look abnormal?",
+      "answer": "yes",
+      "predicted": "Yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_266.png",
+      "question": "Does the picture contain kidney?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_267.png",
+      "question": "Does the picture contain brian?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_268.png",
+      "question": "Can nodule be observed on the upper right lung in this picture?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_269.png",
+      "question": "Does the picture contain kidney?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_270.png",
+      "question": "Is the lung abnormal?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_271.png",
+      "question": "Does the picture contain lung?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_272.png",
+      "question": "Do any of the organs in the picture belong to the digestive system?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_273.png",
+      "question": "Does the picture contain lung?",
+      "answer": "yes",
+      "predicted": "no",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_274.png",
+      "question": "Is this a study of the pelvic cavity?",
+      "answer": "no",
+      "predicted": "No",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_275.png",
+      "question": "Are there abnormalities in this image?",
+      "answer": "yes",
+      "predicted": "Yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_276.png",
+      "question": "Is this a coronal plane?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_277.png",
+      "question": "Does the picture contain heart?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_278.png",
+      "question": "Do the organs in the image exist in the abdomen?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_279.png",
+      "question": "Is the lung healthy?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_280.png",
+      "question": "Does the picture contain heart?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_281.png",
+      "question": "Are there abnormalities in this image?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_282.png",
+      "question": "Does the picture contain the organ that could receive sound?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_283.png",
+      "question": "Does the picture contain spleen?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_284.png",
+      "question": "Does the picture contain spleen?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_285.png",
+      "question": "Does the picture contain heart?",
+      "answer": "no",
+      "predicted": "No",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_286.png",
+      "question": "Is this an MRI scan?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_287.png",
+      "question": "Does the picture contain spleen?",
+      "answer": "no",
+      "predicted": "Yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_288.png",
+      "question": "Do the organs in the image exist in the head?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_289.png",
+      "question": "Do the organs in the image exist in the pelvic cavity?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_290.png",
+      "question": "Can effusion be observed on the lower left lung in this picture?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_291.png",
+      "question": "Can cardiomegaly be observed on the heart in this picture?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_292.png",
+      "question": "Does the picture contain eyes?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_293.png",
+      "question": "Is this image normal?",
+      "answer": "no",
+      "predicted": "No",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_294.png",
+      "question": "Is this image normal?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_295.png",
+      "question": "Does the picture contain liver?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_296.png",
+      "question": "Does the picture contain lung?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_297.png",
+      "question": "Does the picture contain heart?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_298.png",
+      "question": "Is the lung healthy?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_299.png",
+      "question": "Does the lung look healthy?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_300.png",
+      "question": "Are there some organs controlling heartbeat and breathing in this image?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_301.png",
+      "question": "Is this a coronal plane?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_302.png",
+      "question": "Does the picture contain lung?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_303.png",
+      "question": "Does the picture contain heart?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_304.png",
+      "question": "Can pneumonia be observed on the upper right lung in this picture?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_305.png",
+      "question": "Do the organs in the image exist in the head?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_306.png",
+      "question": "Do the organs in the image exist in the chest?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_307.png",
+      "question": "Does the picture contain heart?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_308.png",
+      "question": "Is this image taken via MRI?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_309.png",
+      "question": "Is the brain healthy?",
+      "answer": "yes",
+      "predicted": "no",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_310.png",
+      "question": "Is this a study of the abdomen?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_311.png",
+      "question": "Is the lung healthy?",
+      "answer": "no",
+      "predicted": "No",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_312.png",
+      "question": "Are there abnormalities in this image?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_313.png",
+      "question": "Is there spinal cord in this picture?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_314.png",
+      "question": "Is this a coronal section?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_315.png",
+      "question": "Does the picture contain the organ which has the effect of detoxicating?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_316.png",
+      "question": "Does the picture contain liver?",
+      "answer": "yes",
+      "predicted": "Yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_317.png",
+      "question": "Does the picture contain liver?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_318.png",
+      "question": "Does the picture contain lung?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_319.png",
+      "question": "Do any of the organs in the picture belong to the nervous system?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_320.png",
+      "question": "Is the lung healthy?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_321.png",
+      "question": "Do the organs in the image exist in the abdomen?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_322.png",
+      "question": "Does the trachea exist in this picture?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_323.png",
+      "question": "Is this a transverse section?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_324.png",
+      "question": "Can infiltration be observed on the lower left lung in this picture?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_325.png",
+      "question": "Is this an MRI scan?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_326.png",
+      "question": "Is this a study of the abdomen?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_327.png",
+      "question": "Are there organs in the picture that can digest food?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_328.png",
+      "question": "Is this a study of the head?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_329.png",
+      "question": "Are there abnormalities in this image?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_330.png",
+      "question": "Can pneumothorax be observed on the lower left lung in this picture?",
+      "answer": "no",
+      "predicted": "No",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_331.png",
+      "question": "Does the picture contain liver?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_332.png",
+      "question": "Is this image normal?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_333.png",
+      "question": "Does the picture contain lung?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_334.png",
+      "question": "Is the lung normal appearing?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_335.png",
+      "question": "Is this a study of the abdomen?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_336.png",
+      "question": "Does the picture contain the organ which has the effect of detoxicating?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_337.png",
+      "question": "Is this a coronal section?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_338.png",
+      "question": "Is this a CT?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_339.png",
+      "question": "Does the picture contain spleen?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_340.png",
+      "question": "Does the picture contain liver?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_341.png",
+      "question": "Does the ears exist in this picture?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_342.png",
+      "question": "Is this an MRI image with T1 weighted?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_343.png",
+      "question": "Does the picture contain spleen?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_344.png",
+      "question": "Can pneumonia be observed on the upper right lung in this picture?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_345.png",
+      "question": "Do any of the organs in the picture belong to the digestive system?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_346.png",
+      "question": "Does the liver look normal?",
+      "answer": "yes",
+      "predicted": "No",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_347.png",
+      "question": "Is the liver healthy?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_348.png",
+      "question": "Does the picture contain liver?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_349.png",
+      "question": "Is this image taken via CT?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_350.png",
+      "question": "Does the picture contain liver?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_351.png",
+      "question": "Is the brain normal appearing?",
+      "answer": "no",
+      "predicted": "no",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_352.png",
+      "question": "Is there any abnormality in the spleen?",
+      "answer": "no",
+      "predicted": "yes",
+      "is_correct": 0
+    },
+    {
+      "image_path": "images/slake_closed_353.png",
+      "question": "Does this image look normal?",
+      "answer": "yes",
+      "predicted": "Yes",
+      "is_correct": 1
+    },
+    {
+      "image_path": "images/slake_closed_354.png",
+      "question": "Is the brain abnormal?",
+      "answer": "yes",
+      "predicted": "yes",
+      "is_correct": 1
+    }
+  ]
+}
