@@ -2,9 +2,7 @@
 
 A multimodal Socratic medical tutor built on LangGraph.
 
-<video src="assets/demo.mov" controls muted playsinline></video>
-
-[Demo video](assets/demo.mov)
+[Demo video] https://drive.google.com/file/d/1UdihdepyYgDsWbvpIC3nq53O1fcmKn_n/view?usp=drive_link
 
 This system reads medical images, retrieves supporting knowledge (text + image), uses visual tools to gather evidence, teaches Socratically with calibrated probes and hints, and produces a final answer only when the student is ready.
 
