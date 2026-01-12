@@ -1,66 +1,121 @@
-# Medical_Tutor (Standalone)
+# Medical Tutor
+
+A multimodal Socratic medical tutor built on LangGraph.
 
 <video src="assets/demo.mov" controls muted playsinline></video>
 
 [Demo video](assets/demo.mov)
 
-This is a standalone **multimodal Socratic medical tutor** built under `Medical_Tutor/` using LangGraph. The runtime is a traceable state machine that can:
+This system reads medical images, retrieves supporting knowledge (text + image), uses visual tools to gather evidence, teaches Socratically with calibrated probes and hints, and produces a final answer only when the student is ready.
 
-- read medical images and describe objective findings,
-- retrieve supporting medical knowledge (text + image),
-- call tools to gather evidence,
-- tutor Socratically with calibrated probes and hints,
-- and reveal a final answer only when the student asks.
+### What “stochastic” means here
 
-Core components (brief):
+The system is **stochastic at the decision points**: the controller samples the next action (tool call vs tutoring action vs answer). The **runtime is deterministic** given a chosen action: routing, tool execution, gating rules, state updates, and trace logging follow fixed logic.
 
-- **Runtime loop**: pre-retrieve → decide → (tool_exec → decide)* → respond/answer
-- **Controller**: chooses tutor actions and tool calls (OpenAI Responses API)
-- **Solver**: MedGemma answer model (used for non-reveal answers)
-- **Tools**: zoom, enhance, segment, OCR, retrieval, web, image_findings
-- **Gates**: reveal and assessment gates enforce pedagogy
-- **Observability**: per-step traces, tool cards, artifacts, errors
-- **UI**: Gradio-based Tutor + Debug Run tabs
+### Architecture (high level)
+
+```text
+┌───────────────────────────────────────────────────────────────────────┐
+│                          ONLINE RUNTIME (LangGraph)                    │
+│                                                                       │
+│   pre-retrieve → decide → (tool_exec → decide)* → respond / answer     │
+│                                                                       │
+│   - pre-retrieve: gather multimodal retrieval context                 │
+│   - decide: controller picks next action                              │
+│   - tool_exec: executes exactly one tool and persists artifacts        │
+│   - respond/answer: tutoring response or final answer                 │
+└───────────────────────────────────────────────────────────────────────┘
+                    ▲                          ▲
+                    │ traces + artifacts       │ playbook rules
+                    │                          │
+┌───────────────────────────────────────────────────────────────────────┐
+│                        OFFLINE IMPROVEMENT LOOPS                        │
+│   SFT (action formatting)   RL (tool-use policy)   ACE (playbooks)      │
+└───────────────────────────────────────────────────────────────────────┘
+```
+
+### Key components
+
+- **Runtime**: LangGraph state machine with explicit shared state and deterministic routing.
+- **Controller**: chooses actions (tool calls, tutoring actions, answer) via OpenAI API.
+- **Solver**: MedGemma vision-language model for grounded answer generation.
+- **Tools**: zoom, enhance, segment (MedSAM2), OCR, retrieval, web, image_findings.
+- **Gates**: reveal + assessment gates enforce tutoring constraints.
+- **Observability**: per-step traces, tool cards, persisted artifacts.
+- **UI**: Gradio app with Tutor + Debug views.
+
+---
 
 ## Quick Start
 
-From the repository root:
+```bash
+# Create and activate a virtual environment
+python -m venv .venv
+source .venv/bin/activate
 
-1) Create/activate a virtual environment (example uses system Python):
+# Install
+pip install -e .
 
-    python -m venv .venv
-    source .venv/bin/activate
+# Set API key
+export OPENAI_API_KEY=...
 
-2) Install the package in editable mode:
+# Check configuration
+medical-tutor config
+```
 
-    python -m pip install -e Medical_Tutor
+Example output:
 
-3) Set required API keys (for tutor/controller + web tools if used):
+```text
+orchestrator_model=gpt-4o-mini
+answer_model=google/medgemma-4b-it
+ace_model=gpt-4o-mini
+bm25_path=data/retrieval/v3/bm25.pkl
+text_index_path=data/retrieval/v3/text_enhanced_new
+image_index_path=data/retrieval/v3/images_pmc_vqa1
+output_dir=Medical_Tutor/outputs
+```
 
-    export OPENAI_API_KEY=...
+---
 
-4) Print the configuration summary:
-
-    medical-tutor config
-
-Expected output:
-
-    orchestrator_model=gpt-4o-mini
-    answer_model=google/medgemma-4b-it
-    ace_model=gpt-4o-mini
-    bm25_path=data/retrieval/v3/bm25.pkl
-    text_index_path=data/retrieval/v3/text_enhanced_new
-    image_index_path=data/retrieval/v3/images_pmc_vqa1
-    output_dir=Medical_Tutor/outputs
-
-## CLI Commands
+## CLI
 
 - `medical-tutor config`  Print configuration summary.
-- `medical-tutor run`     Run a one-shot image+question.
+- `medical-tutor run`     Run a one-shot image + question.
 - `medical-tutor ui`      Launch the Gradio UI.
 - `medical-tutor ace`     Run ACE workflow.
 - `medical-tutor eval`    Run evaluation.
 
+---
+
 ## Configuration
 
 Configuration is controlled via `MEDTUTOR_` environment variables. See `medical_tutor/config.py` for defaults.
+
+Common settings:
+
+- `MEDTUTOR_ORCHESTRATOR_MODEL`
+- `MEDTUTOR_ANSWER_MODEL`
+- `MEDTUTOR_ACE_MODEL`
+- `MEDTUTOR_BM25_PATH`
+- `MEDTUTOR_TEXT_INDEX_PATH`
+- `MEDTUTOR_IMAGE_INDEX_PATH`
+- `MEDTUTOR_OUTPUT_DIR`
+
+---
+
+## Outputs
+
+Runs write to `output_dir`:
+
+- Per-step traces (state transitions, routing decisions)
+- Tool cards (arguments, summaries, errors)
+- Persisted artifacts (images, crops, masks, text)
+- Retrieval hits and compact summaries
+
+This structure supports debugging, replay, and offline improvement loops (SFT, RL, ACE).
+
+---
+
+## Architecture
+
+For a detailed explanation of the system design, training pipeline, and the decisions behind it, see the [
